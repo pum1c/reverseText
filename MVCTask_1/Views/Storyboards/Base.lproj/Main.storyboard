@@ -38,7 +38,7 @@
                                     <color key="baseForegroundColor" red="1" green="0.96232978629999999" blue="0.91152519539999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YLE-B7-oDP"/>
+                                    <action selector="buttonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YLE-B7-oDP"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This application will reverse your words. Please type text below " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Wj-FA-aBU">
@@ -86,7 +86,7 @@
                     <navigationItem key="navigationItem" id="56s-W9-nYX"/>
                     <connections>
                         <outlet property="button" destination="sWr-71-FP7" id="jYM-MT-auq"/>
-                        <outlet property="result" destination="Ymj-NO-FJn" id="kEU-ib-WmE"/>
+                        <outlet property="resultLabel" destination="Ymj-NO-FJn" id="kEU-ib-WmE"/>
                         <outlet property="textField" destination="uSl-Ct-UjX" id="YMk-AR-S8A"/>
                     </connections>
                 </viewController>
