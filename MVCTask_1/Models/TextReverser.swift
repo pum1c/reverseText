@@ -8,15 +8,13 @@
 import Foundation
 import UIKit
 
-class ReverseText {
-    var reversesText: String = ""
-    
-    public func reverseText() {
-        let word = reversesText.components(separatedBy: " ")
+class TextReverser {
+
+    public func reverseText(text: String) -> String {
+        let word = text.components(separatedBy: " ")
         let reversedWords = word.map {String($0.reversed()) }
         let reversedText = reversedWords.joined(separator: " ")
-        reversesText = reversedText
+        return reversedText
     }
-        
 }
 

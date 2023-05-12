@@ -13,7 +13,7 @@
 		E33DF2852A063DC7000CEBC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33DF2832A063DC7000CEBC1 /* Main.storyboard */; };
 		E33DF2872A063DC9000CEBC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E33DF2862A063DC9000CEBC1 /* Assets.xcassets */; };
 		E33DF28A2A063DC9000CEBC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33DF2882A063DC9000CEBC1 /* LaunchScreen.storyboard */; };
-		E33DF2952A063E4B000CEBC1 /* ReverseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33DF2942A063E4B000CEBC1 /* ReverseModel.swift */; };
+		E33DF2952A063E4B000CEBC1 /* TextReverser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33DF2942A063E4B000CEBC1 /* TextReverser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		E33DF2862A063DC9000CEBC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E33DF2892A063DC9000CEBC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E33DF28B2A063DC9000CEBC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E33DF2942A063E4B000CEBC1 /* ReverseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseModel.swift; sourceTree = "<group>"; };
+		E33DF2942A063E4B000CEBC1 /* TextReverser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextReverser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 		E33DF2932A063E2B000CEBC1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E33DF2942A063E4B000CEBC1 /* ReverseModel.swift */,
+				E33DF2942A063E4B000CEBC1 /* TextReverser.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -175,7 +175,7 @@
 			files = (
 				E33DF2822A063DC7000CEBC1 /* ViewController.swift in Sources */,
 				E33DF27E2A063DC7000CEBC1 /* AppDelegate.swift in Sources */,
-				E33DF2952A063E4B000CEBC1 /* ReverseModel.swift in Sources */,
+				E33DF2952A063E4B000CEBC1 /* TextReverser.swift in Sources */,
 				E33DF2802A063DC7000CEBC1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
