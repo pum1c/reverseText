@@ -86,7 +86,7 @@
                     <navigationItem key="navigationItem" id="56s-W9-nYX"/>
                     <connections>
                         <outlet property="button" destination="sWr-71-FP7" id="jYM-MT-auq"/>
-                        <outlet property="resultLable" destination="Ymj-NO-FJn" id="kEU-ib-WmE"/>
+                        <outlet property="resultLabel" destination="Ymj-NO-FJn" id="kEU-ib-WmE"/>
                         <outlet property="textField" destination="uSl-Ct-UjX" id="YMk-AR-S8A"/>
                     </connections>
                 </viewController>

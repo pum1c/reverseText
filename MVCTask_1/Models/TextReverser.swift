@@ -11,10 +11,7 @@ import UIKit
 class TextReverser {
 
     public func reverseText(text: String) -> String {
-        let word = text.components(separatedBy: " ")
-        let reversedWords = word.map {String($0.reversed()) }
-        let reversedText = reversedWords.joined(separator: " ")
-        return reversedText
+        text.components(separatedBy: " ").map { String($0.reversed()) }.joined(separator: " ")
     }
 }
 
